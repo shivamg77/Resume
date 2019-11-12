@@ -1,0 +1,297 @@
+<html>
+   <head>
+      <title>resume</title>
+      <meta name='viewport'
+         content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
+      <meta charset="utf-8" />
+      <link href="css-circular-prog-bar.css" media="all" rel="stylesheet" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <link rel="stylesheet" href="style.css" />
+      <link
+         rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
+         />
+      <link
+         rel="stylesheet"
+         href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+         />
+      <link
+         rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+         />
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+   </head>
+   <body style="background-color: lightgray;">
+      <div id="header">
+         <nav class="navbar navbar-expand-md navbar-dark bg-secondary fixed-top">
+            <div class="container">
+               <button class="navbar-toggler" data-toggle="collapse" data-target="#home">
+               <span class="navbar-toggler-icon"></span>
+               </button>
+               <!--MENU-->
+               <a href=resume.html" class="nav-item active"  id="resume">
+                  <h3>MyResume</h3>
+               </a>
+               <div class="menu animated slideInDown">
+                  <div class="collapse navbar-collapse" id="home">
+                     <ul id="bar" class="navbar-nav ml-auto">
+                        <li class="nav-item active"><a href="#aboutme" class="nav-link">About Me</a></li>
+                        <li class="nav-item active"><a href="#edu" class="nav-link">Education</a></li>
+                        <li class="nav-item active"><a href="#skills" class="nav-link">Skills</a></li>
+                        <li class="nav-item active"><a href="#projects" class="nav-link">Projects</a></li>
+                        <li class="nav-item active"><a href="#achievements" class="nav-link">Achievements</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </nav>
+      </div>
+      <!-- backGround image -->
+      <div class="picture"><img id="pic" src="bg1.jpg"  /></div>
+      <!-- about me -->
+      <div id="aboutme">
+         <div id="hide"></div>
+         <div class="container">
+            <div class="card text-white bg-dark">
+               <div class="card-header" style="padding:15;">
+                  <img class="card-header pull-left" id="mypic" 
+                     src="me1.PNG" 
+                     alt="Card image" >
+                  <h3 class="card-title ">Shivam Goyal</h3>
+                  <p class="card-text" id="text">Fullstack Developer</p>
+                  <h2 class="card-text"id="text1">
+                     <i class="fa fa-envelope" id="logo" ></i>
+                     shivamgoyal.005@gmail.com
+                  </h2>
+                  <h3 class="card-text " id="text1">
+                     <i
+                        class="fa fa-address-book"
+                        id="logo"
+                        ></i>
+                     +91 8901426509
+                  </h3>
+                  <h3 class="card-text "id="text1">
+                     <i class="fa fa-home"id="logo" ></i>
+                     #585,Bhim Colony near Partapgarh Sirsa,Haryana
+                  </h3>
+                  <br>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Education -->
+      <div id="edu">
+         <div id="hide"></div>
+         <div class="clg ">
+            <center>
+               <span class="display-5" id="tech">Education</span>
+            </center>
+            <div class="card-deck" style="padding: 15px;">
+               <div class="card bg-dark text-white">
+                  <div class="card-body text-center">
+                     <h2 class="card-title">UNDERGRADUATION</h2>
+                     <p class="card-text">B.E. in Computer Science</p>
+                     <p class="card-text">Chitkara University, Punjab</p>
+                     <p class="card-text">(2017-present)</p>
+                     <p class="card-text"> Secured CGPA 8.49 upto 4th Semester</p>
+                  </div>
+               </div>
+               <div class="card bg-dark text-white">
+                  <div class="card-body text-center">
+                     <h2 class="card-title">10+2 (PCM)</h2>
+                     <p class="card-text">Maharaja Agrasain Sr Sec School, Sirsa</p>
+                     <p class="card-text">(2015-2017)</p>
+                     <p class="card-text"> Secured 80.8%</p>
+                  </div>
+               </div>
+               <div class="card bg-dark text-white">
+                  <div class="card-body text-center">
+                     <h2 class="card-title">10th</h2>
+                     <p class="card-text">Maharaja Agrasain Sr Sec School, Sirsa</p>
+                     <p class="card-text">(2012-2015)</p>
+                     <p class="card-text"> Secured CGPA 10</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Skills> -->
+      <div id="skills">
+         <div id="hide"></div>
+         <center>
+            <span class="display-5" id="tech" >Technical Skills</span>
+         </center>
+         <br><br>
+         <div class="skills-bar">
+            <div id="skill_1">
+               <div class="progress-circle over50 p87">
+                  <span>C</span>
+                  <div class="left-half-clipper">
+                     <div class="first50-bar"></div>
+                     <div class="value-bar"></div>
+                  </div>
+               </div>
+               <div class="progress-circle over50 p92">
+                  <span>C++</span>
+                  <div class="left-half-clipper">
+                     <div class="first50-bar"></div>
+                     <div class="value-bar"></div>
+                  </div>
+               </div>
+               <div class="progress-circle over50 p95">
+                  <span>Java</span>
+                  <div class="left-half-clipper">
+                     <div class="first50-bar"></div>
+                     <div class="value-bar"></div>
+                  </div>
+               </div>
+               <div class="progress-circle over50 p87">
+                  <span>Phyton</span>
+                  <div class="left-half-clipper">
+                     <div class="first50-bar"></div>
+                     <div class="value-bar"></div>
+                  </div>
+               </div>
+               <div class="progress-circle over50 p87">
+                  <span>SQL</span>
+                  <div class="left-half-clipper">
+                     <div class="first50-bar"></div>
+                     <div class="value-bar"></div>
+                  </div>
+               </div>
+               <div class="progress-circle over50 p91">
+                  <span>Powerpoint</span>
+                  <div class="left-half-clipper">
+                     <div class="first50-bar"></div>
+                     <div class="value-bar"></div>
+                  </div>
+               </div>
+            </div>
+            <div id="skill_2">
+               <div class="progress-circle over50 p95">
+                  <span>HTML</span>
+                  <div class="left-half-clipper">
+                     <div class="first50-bar"></div>
+                     <div class="value-bar"></div>
+                  </div>
+               </div>
+               <div class="progress-circle over50 p97">
+                  <span>CSS</span>
+                  <div class="left-half-clipper">
+                     <div class="first50-bar"></div>
+                     <div class="value-bar"></div>
+                  </div>
+               </div>
+               <div class="progress-circle over50 p91">
+                  <span ">JavaScript</span>
+                  <div class="left-half-clipper">
+                     <div class="first50-bar"></div>
+                     <div class="value-bar"></div>
+                  </div>
+               </div>
+               <div class="progress-circle over50 p87">
+                  <span>MS Office</span>
+                  <div class="left-half-clipper">
+                     <div class="first50-bar"></div>
+                     <div class="value-bar"></div>
+                  </div>
+               </div>
+               <div class="progress-circle over50 p87">
+                  <span>MS  Word</span>
+                  <div class="left-half-clipper">
+                     <div class="first50-bar"></div>
+                     <div class="value-bar"></div>
+                  </div>
+               </div>
+               <div class="progress-circle over50 p87">
+                  <span >MS Excel</span>
+                  <div class="left-half-clipper">
+                     <div class="first50-bar"></div>
+                     <div class="value-bar"></div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Projects -->
+      <div id="projects">
+         <div id="hide"></div>
+         <div >
+            <center>
+               <span class="display-5" id="tech" >Project</span>
+            </center>
+            <div class="proj">
+               <ul style="list-style-type:disc;">
+                  <li>
+                     <b>Discussion Forum</b> &nbsp;&nbsp;(Aug 2019)
+                     <p>Applied knowledge of OOP to build a Discussion Forum platform that runs locally on the computer.</p>
+                     </p>
+                  </li>
+                  <li>
+                     <b>TravelBuddy (Bus Ticket System)</b> &nbsp;&nbsp;  (Oct 2019)
+                     <p>Developed a real time project using Arduino and RFID Card Reader, 
+                        useful for commuters by digitizing the current paper based bus ticket 
+                        system and solving the chaos of carrying cash and responsibility of handling the ticket.
+                     </p>
+                  </li>
+                  <li>
+                     <b>Obstacle Detection Instrument For Blinds</b> &nbsp;&nbsp; (January 2019-June 2019)
+                     <p>An idea of making an instrument for the ease of blinds to make them independent.
+                        Took this project to Novate also
+                     </p>
+                  </li>
+                  <li>
+                     <b>Apni Dairy</b>&nbsp;&nbsp;  (January 2018-June 2018)
+                     <p>A basic idea for making this mobile application was to provide good quality milk and dairy products at reasonable
+                        price.
+                     </p>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </div>
+      <!-- Achievement> -->
+      <div id="achievements">
+         <div id="hide"></div>
+         <div>
+            <center>
+               <span class="display-5" id="tech" >Achievement</span>
+            </center>
+            <div class="achiev">
+               <b>Academic</b>
+               <ul id="list">
+                  <li>Cleared Round 1 of Huawei ICT Competition India held in Chitkara University, 2018.</li>
+               </ul>
+               <b>CO-CURRICULAR ACTIVITIES</b>
+               <ul id="list">
+                  <li>Participated in Entrepreneurship Awareness Drive 2017 by Entrepreneurship Cell, IIT Kharagpur.</li>
+                  <li>Participated in the ‘nRAYS’ Thinking Hackathon at Chitkara University in 2017.</li>
+                  <li>Volunteered for START UP DAY’17 at Chitkara University, 2017.</li>
+                  <li>Novate 2018 (Chitkara University) - Apni Dairy</li>
+                  <li>Smart India Hackathon 2019</li>
+                  <li>Novate 2019 (Chitkara University) -Obstacle Detection Instrument For Blinds</li>
+                  <li>Participated in HackUp Hackathon (IEEE Day 2019 Event, Chitkara University)</li>
+                  <li>Introduction to Python Programming (Online Course - Udemy)</li>
+               </ul>
+            </div>
+         </div>
+      </div>
+      <!-- Footer -->
+      <footer >
+         <div class="links">
+            <a href=https://www.linkedin.com/in/shivam-goyal-324948161/
+               ><i class="fa fa-linkedin fa-2x"  style="color:red"></i></a
+               >&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://github.com/shivamg77"
+               ><i class="fa fa-github fa-2x"  style="color:red"></i></a
+               >&nbsp;&nbsp;&nbsp;&nbsp;
+            <a style="color:red"href="https://drive.google.com/file/d/117Xu_xE7k0TfhcQkIYsjPtDRw1kYycbe/view"
+               download
+               ><i class="fa fa-download" style="color:red"></i> Download resume pdf</a
+               >
+         </div>
+      </footer>
+   </body>
+</html>

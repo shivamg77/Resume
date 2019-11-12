@@ -1,0 +1,246 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: aqua !important;
+}
+
+a:active {
+  color: blue !important;
+}
+
+#mypic {
+  width: 32%;
+  padding: 8px;
+  height: 320px;
+  background-size: cover;
+  border-radius: 100%;
+  margin: 0 auto;
+  box-shadow: 0px 0px 0px 0px rgba(200, 95, 66, 0.4) inset,
+    0px 0px 0px 16px rgba(255, 255, 255, 0.6) inset,
+    0px 1px 2px rgba(0, 0, 0, 0.1);
+}
+#resume {
+  text-decoration: none;
+  font-size: 27px;
+  color: rgb(211, 135, 22);
+  animation: shivam 1s infinite;
+}
+@keyframes shivam {
+  0% {
+    color: red;
+  }
+  25% {
+    color: #bf55ec;
+  }
+  75% {
+    color: white;
+  }
+  100% {
+    color: red;
+  }
+}
+#home {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+#pic {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-color: lightgray;
+  height: 100%;
+}
+#hide {
+  height: 60px;
+  visibility: hidden;
+  background: red;
+}
+#aboutme {
+  margin-top: -200px;
+  padding: 20px;
+}
+h3.card-title {
+  margin-left: 43%;
+  font-size: 70px;
+  padding-left: 20px;
+}
+#text {
+  margin-left: 50%;
+  font-size: 30px;
+  padding-left: 20px;
+}
+#logo {
+  padding-left: 20px;
+}
+footer {
+  height: 80px;
+  width: 100%;
+  background-color: black;
+  padding: 20px;
+  bottom: 0;
+  position: relative;
+  text-align: center;
+}
+
+#nam {
+  margin-left: 380px;
+}
+#na {
+  margin-left: 500px;
+}
+#name {
+  margin-left: 340px;
+}
+
+/* skill */
+
+#tech {
+  margin-left: 10px;
+  font-weight: 600;
+  font-size: 40px;
+  text-shadow: 2px 0 4px #ff1110;
+}
+#tech2 {
+  margin-left: 10px;
+
+  font-size: 30px;
+
+  background-color: red;
+  color: white;
+}
+#tech3 {
+  margin-left: 10px;
+
+  font-size: 30px;
+
+  background-color: yellow;
+  color: white;
+}
+
+.progress {
+  width: 40%;
+  border-radius: 16px !important;
+  margin-bottom: 10px;
+  margin-left: 40px;
+}
+.progress-bar {
+  width: 40%;
+  border-radius: 16px;
+  background: black !important;
+}
+.skills-bar {
+  margin-bottom: 6px;
+  margin-left: 23%;
+
+  display: flex;
+  flex-direction: row;
+}
+#skill_1 {
+  width: 50%;
+  flex: 1;
+}
+
+#skill_2 {
+  flex: 1;
+  width: 50%;
+}
+
+/* education */
+
+#tab,
+table {
+  width: 100%;
+
+  text-align: center;
+
+  padding: 30px;
+}
+
+/* project */
+
+.proj {
+  font-size: 20px;
+  margin-left: 40px;
+  padding: 20px;
+}
+
+/* Achievements */
+.achiev {
+  font-size: 20px;
+  margin-left: 40px;
+  padding: 20px;
+}
+
+#list {
+  margin-left: 50px;
+}
+/* reponsive */
+@media only screen and (max-width: 400px) {
+  h3.card-title {
+    font-size: 25px;
+    margin-left: 0px;
+  }
+  h2.card-title {
+    font-size: 27px;
+    margin-left: 0px;
+  }
+  #mypic {
+    display: none;
+  }
+  #text {
+    margin-left: 5%;
+    font-size: 14px;
+  }
+  #text1 {
+    font-size: 16px;
+    margin-left: 0px;
+  }
+  #logo {
+    display: none;
+  }
+  .skills-bar {
+    margin-bottom: 6px;
+    margin-left: 9%;
+
+    display: flex;
+    flex-direction: column;
+  }
+  #pic {
+    display: none;
+  }
+  #aboutme {
+    margin-top: 50px;
+  }
+}
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  h3.card-title {
+    font-size: 25px;
+    margin-left: 0px;
+    padding-left: 20px;
+  }
+  #mypic {
+    display: none;
+  }
+  #text {
+    margin-left: 0%;
+    font-size: 18px;
+  }
+  #text1 {
+    font-size: 20px;
+    margin-left: 0px;
+  }
+  .skills-bar {
+    margin-bottom: 6px;
+    margin-left: 9%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+}
