@@ -6,10 +6,7 @@ A website specifically designed to display the resume in the form of a website. 
 * HTML
 * CSS
 * JAVASCRIPT
-* BOOTSTRAP
-
-## ENDPOINTS
-                     
+* BOOTSTRAP                     
 
 ## Links For Live Website
 https://shivamg77.github.io/myResume/
