@@ -9,4 +9,4 @@ A website specifically designed to display the resume in the form of a website. 
 * BOOTSTRAP                     
 
 ## Links For Live Website
-https://shivamg77.github.io/myResume/
+https://github.com/shivamg77/shivamg77.github.io
